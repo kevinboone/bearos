@@ -1,0 +1,25 @@
+Consider handling multiple partitions on SD cards, or even multiple cards.
+No logic is in place for this at present. 
+
+Tidy up ls command
+
+Get timestamps from directories (fatfile.c)
+
+Read an rc file
+
+`date MMDDHHMM` should probably take a GMT time, if the RTC is expected to be
+GMT. Otherwise, set UTC_OFFSET=0 before running it.
+
+Lua! Although it builds fine, it won't fit into the Pico RAM unless much
+of the functionality is removed. The small build I could get, that would
+actually start, was about 100kB. But that was without math, coroutines, 
+debugger, etc.
+
+Update bearos_utils so that all utilities use stderr as appropriate,
+rather than stdout.
+
+Run script just by filename
+
+Implement a proper function to get a temporary filename, and replace the
+hardcoded temporary names in, e.g., shell_exec_pipedlist().
+

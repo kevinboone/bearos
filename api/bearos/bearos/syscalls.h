@@ -1,0 +1,42 @@
+/*============================================================================
+ *  bearos/syscalls.h
+ *
+ * Copyright (c)2022 Kevin Boone, GPL v3.0
+ * ==========================================================================*/
+#pragma once
+
+#define BEAROS_SYSCALL_OPEN 1
+#define BEAROS_SYSCALL_WRITE 2
+#define BEAROS_SYSCALL_READ 3
+#define BEAROS_SYSCALL_CLOSE 4
+#define BEAROS_SYSCALL_READ_TIMEOUT 5
+#define BEAROS_SYSCALL_FSTAT 6
+#define BEAROS_SYSCALL_LSEEK 7
+#define BEAROS_SYSCALL_UNLINK 8
+#define BEAROS_SYSCALL_UTIME 9
+
+#define BEAROS_SYSCALL_GETDENT 10
+#define BEAROS_SYSCALL_CHDIR 11
+#define BEAROS_SYSCALL_GETCWD 12
+#define BEAROS_SYSCALL_MKDIR 13
+#define BEAROS_SYSCALL_RMDIR 14
+#define BEAROS_SYSCALL_FTRUNCATE 15
+
+#define BEAROS_SYSCALL_POLL_INTERRUPT 20
+#define BEAROS_SYSCALL_CLEAR_INTERRUPT 21
+#define BEAROS_SYSCALL_GET_KEY 22
+#define BEAROS_SYSCALL_GET_LINE 23
+
+#define BEAROS_SYSCALL_ACCESS 30 
+
+#define BEAROS_SYSCALL_SBRK 40 
+#define BEAROS_SYSCALL_EXIT 41 
+#define BEAROS_SYSCALL_DEVCTL 42 
+#define BEAROS_SYSCALL_USLEEP 43 
+
+#define BEAROS_SYSCALL_GMTIME_R 70 
+#define BEAROS_SYSCALL_GETTIMEOFDAY 71 
+#define BEAROS_SYSCALL_LOCALTIME_R 72 
+
+
+
