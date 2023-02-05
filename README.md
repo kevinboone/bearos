@@ -2,17 +2,19 @@
 
 Kevin Boone, December 2022
 
-*Work in progress. Collaboration is welcome. As a resulf of various * 
-*conversations I have had with other retrocomputing enthusiasts,* 
-*I am publishing this before it is remotely complete.* 
+*NOTE...*
 
-*Please note that, at present, this system has to be operated using.*
-*a terminal. I have a rudimentary driver for the Waveshare 480x320 LCD*
-*panel, but as yet no keyboard support. Ultimately I want to make a completely*
-*self-contained retro-style computer with its own operating system, but*
-*this is some way off. **
+Work in progress. Collaboration is welcome. As a resulf of various 
+conversations I have had with other retrocomputing enthusiasts,
+I am publishing this before it is remotely complete.
 
-*For sample programs for BearOS, see my other repoistory 'bearos\_utils'.*
+Please note that, at present, this system has to be operated using.
+a terminal. I have a rudimentary driver for the Waveshare 480x320 LCD
+panel, but as yet no keyboard support. Ultimately I want to make a completely
+self-contained retro-style computer with its own operating system, but
+this is some way off. **
+
+For sample programs for BearOS, see my other repoistory 'bearos\_utils'.
 
 ## What is this?
 
