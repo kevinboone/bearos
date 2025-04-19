@@ -2,6 +2,14 @@
 
 Kevin Boone, December 2022
 
+**OBSOLETE**
+
+This version of BearOS is obsolete, and I won't be developing it further.
+I will be uploading a completely new version, 'BearOS2' in due course. 
+Unlike this version, BearOS2 _will_ be capable of providing a complete
+computer, with keyboard and display.
+
+
 *NOTE...*
 
 Work in progress. Collaboration is welcome. As a resulf of various 
